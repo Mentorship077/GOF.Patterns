@@ -1,7 +1,7 @@
-package adapter;
+package structural.adapter;
 
-import adapter.model.Move;
-import adapter.model.WingsDroid;
+import structural.adapter.model.Move;
+import structural.adapter.model.WingsDroid;
 
 /**
  * Created  on 20.07.17.
