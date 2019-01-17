@@ -11,10 +11,10 @@ import structural.adapter.model.WingsDroid;
 public class DroidAdapterApplication {
     public static void main(String[] args) {
         Droid droid = new Droid();
-        Move wheelDroid = new WheelDroid();
+        Move wheelDroid = new WheelDroid("Droid drive on wheels");
         droid.start(wheelDroid);
 
-        WingsDroid wingsDroid = new WingsDroid();
+        WingsDroid wingsDroid = new WingsDroid("I can fly");
         Move adapter = new DroidAdapter(wingsDroid);
         droid.start(adapter);
     }
