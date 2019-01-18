@@ -1,5 +1,7 @@
 package structural.bridge;
 
+import structural.bridge.circle.DrawAPI;
+
 public abstract class Shape {
     protected DrawAPI drawAPI;
 

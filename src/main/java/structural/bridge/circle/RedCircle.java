@@ -1,7 +1,5 @@
 package structural.bridge.circle;
 
-import structural.bridge.DrawAPI;
-
 public class RedCircle implements DrawAPI {
 
     @Override

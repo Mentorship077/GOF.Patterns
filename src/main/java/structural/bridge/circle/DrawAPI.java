@@ -1,4 +1,4 @@
-package structural.bridge;
+package structural.bridge.circle;
 
 public interface DrawAPI {
     void drawCircle(int radius, int x, int y);

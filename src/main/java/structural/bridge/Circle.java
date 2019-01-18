@@ -1,5 +1,7 @@
 package structural.bridge;
 
+import structural.bridge.circle.DrawAPI;
+
 public class Circle extends Shape {
 
     private int x;
