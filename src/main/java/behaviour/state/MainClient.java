@@ -1,12 +1,12 @@
 package behaviour.state;
 
-import behaviour.state.model.Context;
+import behaviour.state.model.Player;
 import behaviour.state.state.StartState;
 import behaviour.state.state.StopState;
 
 public class MainClient {
     public static void main(String[] args) {
-        Context context = new Context();
+        Player context = new Player();
 
         StartState startState = new StartState();
         startState.doAction(context);

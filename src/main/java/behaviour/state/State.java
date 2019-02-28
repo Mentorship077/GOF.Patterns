@@ -1,7 +1,7 @@
 package behaviour.state;
 
-import behaviour.state.model.Context;
+import behaviour.state.model.Player;
 
 public interface State {
-    public void doAction(Context context);
+    public void doAction(Player context);
 }

@@ -2,10 +2,10 @@ package behaviour.state.model;
 
 import behaviour.state.State;
 
-public class Context {
+public class Player {
     private State state;
 
-    public Context(){
+    public Player(){
         state = null;
     }
 
